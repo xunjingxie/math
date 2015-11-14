@@ -1,0 +1,3 @@
+if(month%4==0 && month%100!= 0 || month % 400 == 0){
+	run nian
+}
