@@ -1,0 +1,19 @@
+0
+	.md文件
+1
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
+
+2
+	cat id_rsa.pub
+2.1
+	ssh -T git@github.com
+3
+	git remote rm origin
+4
+	git push origin master（处理错误）
+4.1
+ 	git pull origin master
+
+5
+	git remote add origin https://github.com/xunjingxie/math.git
